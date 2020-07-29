@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/tarjeta.css">
+    <link rel="shortcut icon" href="img/dark.png">
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Pago</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand text-light" href="index.html">
+        <img src="img/dark.png" width="50">  Vortex Club
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">                
+    </nav>
+    <section class="container1">
+        <div class="row">
+            <div class="col-75">
+              <div class="container1">
+                <form action="/action_page.php">
+          
+                  <div class="row">
+                    <div class="col-50">
+                      <h3>Pago</h3>
+                      <label for="fname"><i class="fa fa-user"></i>Nombre completo</label>
+                      <input type="text" id="fname" name="firstname" placeholder="Esteban Quito">
+                      <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                      <input type="text" id="email" name="email" placeholder="nosemi@correo.com">
+                      <label for="adr"><i class="fa fa-address-card-o"></i>Dirección</label>
+                      <input type="text" id="adr" name="address" placeholder="Av. Siempre Viva">
+                      <label for="city"><i class="fa fa-institution"></i>Ciudad</label>
+                      <input type="text" id="city" name="city" placeholder="Lima">
+          
+                      <div class="row">
+                        <div class="col-50">
+                          <label for="state">Distrito</label>
+                          <input type="text" id="state" name="state" placeholder="Comas">
+                        </div>
+                        <div class="col-50">
+                          <label for="zip">Codigo Postal</label>
+                          <input type="text" id="zip" name="zip" placeholder="1978">
+                        </div>
+                      </div>
+                    </div>
+          
+                    <div class="col-50">
+                      <h3>Payment</h3>
+                      <label for="fname">Accepted Cards</label>
+                      <div class="icon-container">
+                        <i class="fa fa-cc-visa" style="color:navy;">Visa</i>
+                        <i class="fa fa-cc-amex" style="color:blue;">Master Card</i>
+                        <i class="fa fa-cc-mastercard" style="color:red;">American Xpress</i>
+                      </div>
+                      <label for="cname">Dueño de la Tarjeta</label>
+                      <input type="text" id="cname" name="cardname" placeholder="Aquiles Castro">
+                      <label for="ccnum">Numero de Tarjeta</label>
+                      <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                      <label for="expmonth">Fecha de Vencimiento</label>
+                      <input type="text" id="expmonth" name="expmonth" placeholder="Octubre">
+          
+                      <div class="row">
+                        <div class="col-50">
+                          <label for="expyear">Año Expiración</label>
+                          <input type="text" id="expyear" name="expyear" placeholder="2018">
+                        </div>
+                        <div class="col-50">
+                          <label for="cvv">CVV</label>
+                          <input type="text" id="cvv" name="cvv" placeholder="352">
+                        </div>
+                      </div>
+                    </div>
+          
+                  </div>
+                  <label>
+                    <input type="checkbox" checked="checked" name="sameadr"> Acepto Terminos y Condiciones
+                  </label>
+                  <a class="btn btn-success btn-lg btn-block" href="pagado.html" role="button">Ir a Pagar</a>
+                </form>
+              </div>
+            </div>
+          
+            <div class="col-25">
+              <div class="container">
+                <h4>Carrito
+                  <span class="price" style="color:black">
+                    <i class="fa fa-shopping-cart"></i>
+                    <b>3</b>
+                  </span>
+                </h4>
+                <p><a href="#">Persona 3 FES</a> <span class="price">S/ 25</span></p>
+                <p><a href="#">Doom Eternal</a> <span class="price">S/ 79</span></p>
+                <p><a href="#">Final Fantasy 15</a> <span class="price">S/ 119</span></p>
+                <hr>
+                <p>Total <span class="price" style="color:black"><b>S/ 223</b></span></p>
+              </div>
+            </div>
+          </div>
+    </section>
+    <footer class="site-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-6">
+              <h6>About</h6>
+              <p class="text-justify">Vortex Club<i>Es una tienda: </i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, culpa? Ut harum impedit, dignissimos, ullam tenetur, labore nostrum natus pariatur autem soluta porro consectetur aperiam obcaecati similique officiis? Temporibus, saepe?</p>
+            </div>  
+            <div class="col-xs-6 col-md-3">
+              <h6>Paginas y Programas Utilizadas usados</h6>
+              <ul class="footer-links">
+                <li><a href="https://getbootstrap.com/docs/4.0/getting-started/introduction/">Bosstrap</a></li>
+                <li><a href="#">Java Script</a></li>
+                <li><a href="#">HTML</a></li>
+                <li><a href="https://stackoverflow.com">Stack Overflow</a></li>
+              </ul>
+            </div>
+  
+            <div class="col-xs-6 col-md-3">
+              <h6>Redes sociales</h6>
+              <ul class="footer-links">
+                <li><a href="https://www.facebook.com/?ref=tn_tnmn">Facebook</a></li>
+                <li><a href="https://twitter.com">Twitter</a></li>
+                <li><a href="https://www.youtube.com">Youtube</a></li>
+                <li><a href="https://www.instagram.com">Instagram</a></li>
+              </ul>
+            </div>
+          </div>
+          <hr>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-sm-6 col-xs-12">
+              <p class="copyright-text">Copyright &copy; 2020 Derechos reservados  
+           <a href="#">Ariel Zarate</a>.
+              </p>
+            </div>
+          </div>
+        </div>
+  </footer>
+
+        
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

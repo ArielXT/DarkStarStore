@@ -1,0 +1,497 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="shortcut icon" href="img/dark.png">
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>NieR Automata</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand text-light" href="index.html">
+        <img src="img/dark.png" width="50">  Vortex Club
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown active">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Tu tienda
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="https://store.steampowered.com/genre/Free%20to%20Play/">Juegos Gratis</a>
+                    <a class="dropdown-item" href="https://store.steampowered.com/communityrecommendations/">Recomendaciones</a>
+                </div>
+                </li>
+                <li class="nav-item dropdown active">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Explora!
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="Persona4Golden.html">Persona® 4 Golden</a>
+                    <a class="dropdown-item" href="NierAutomata.html">Nier:Automata</a>
+                    <a class="dropdown-item" href="borderlands.html">Borderlands 3</a>
+                    <a class="dropdown-item" href="Blazblue.html">BlazBlue</a>
+                    <a class="dropdown-item" href="Sekiro.html">Sekiro™</a>
+                </div>
+                </li>
+                <li class="nav-item active">
+                <a class="nav-link" href="sub.html">Suscribete</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="carrito.html">Tu carrito</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="https://darkstarestore.blogspot.com">Nuestro Blogger</a>
+                </li>
+            </ul>              
+        <form class="form-inline my-2 my-lg-0" >
+            <input class="form-control mr-sm-2" type="search" placeholder="Buscar en la tienda" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+        </form>
+        </div>
+    </nav>
+
+
+    <div id="video-carousel-example2" class="carousel slide carousel-fade" data-ride="carousel">
+    <!--Indicators-->
+    <ol class="carousel-indicators">
+    <li data-target="#video-carousel-example2" data-slide-to="0" class="active"></li>
+    <li data-target="#video-carousel-example2" data-slide-to="1" class="active"></li>
+    <li data-target="#video-carousel-example2" data-slide-to="2" class="active"></li>
+    <li data-target="#video-carousel-example2" data-slide-to="3" class="active"></li>
+    <li data-target="#video-carousel-example2" data-slide-to="4" class="active"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active">
+        <div class="view">
+        <video class="video-fluid d-block mx-auto"autoplay loop muted>
+            <source src="trailer/NieD.mp4" type="video/mp4"/>
+        </video>
+        <div class="mask rgba-indigo-light"></div>
+        </div>
+        <div class="carousel-caption">
+        <div class="animated fadeInDown">
+            <h3 class="h3-responsive">Lanzamiento en Steam y PS4</h3>
+        </div>
+        </div>
+    </div>
+    <div class="carousel-item">
+        <div class="view">
+        <video class="video-fluid d-block mx-auto" autoplay loop muted>
+            <source src="trailer/NieG.mp4" type="video/mp4" />
+        </video>
+        <div class="mask rgba-purple-slight"></div>
+        </div>
+        <div class="carousel-caption">
+        <div class="animated fadeInDown">
+            <h3 class="h3-responsive">Anunciando Game of the YoRHa Edition</h3>
+        </div>
+        </div>
+    </div>
+        <div class="carousel-item">
+            <a href="" alt="parche"><img class="d-block mx-auto" src="img/gameplay/2BPOT.jpg" alt="43"></a>
+        </div>
+        <div class="carousel-item">
+            <a href="" alt="parche"><img class="d-block mx-auto" src="img/gameplay/2BTITAN.jpg" alt="41"></a>
+        </div>
+        <div class="carousel-item">
+            <a href="" alt="parche"><img class="d-block mx-auto" src="img/gameplay/2SLASH.jpg" alt="42"></a>
+        </div>
+    </div>
+    </div>
+    <a class="carousel-control-prev" href="#video-carousel-example2" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#video-carousel-example2" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+    </a>
+    </div>
+    <br>
+    <section class="container">
+        <div class="row">
+        <div class="col-sm-8">
+            <div class="alert alert-dark font-weight-bold" role="alert">
+                Comprar NieR:Automata™ por S/ 119.90
+                <a class="btn btn-sm btn-success float-right" href="carrito.html" role="button">Comprar</a>
+            </div>
+            <div class="alert alert-dark font-weight-bold" role="alert">
+                Comprar NieR:Automata™ Game of the YoRHa Edition por S/ 159.90
+                <a class="btn btn-sm btn-success float-right" href="carrito.html" role="button">Comprar</a>
+            </div>
+            <h3 class="text-light">RESEÑAS</h3>
+            <hr class="linea" size="10"/>
+            <blockquote class="blockquote">
+                <p class="mb-0 font-italic text-light">“Riveting and gratifying combat”</p>
+                <footer class="blockquote-footer">9/10 <cite title="Source Title">Gamespot</cite></footer>
+            </blockquote>
+            <blockquote class="blockquote">
+                <p class="mb-0 font-italic text-light">“A breath of fresh air”</p>
+                <footer class="blockquote-footer">4.5/5 <cite title="Source Title">GamesRadar+</cite></footer>
+            </blockquote>
+            <blockquote class="blockquote">
+                <p class="mb-0 font-italic text-light">“Bold, ambitious, and surprising”</p>
+                <footer class="blockquote-footer">Recommended<cite title="Source Title">Eurogamer</cite></footer>
+            </blockquote>
+            <h3 class="text-light">NIER:AUTOMATA™ GAME OF THE YORHA EDITION</h3>
+            <hr class="linea" size="10"/>
+            <details>
+                <summary class="text-light"><p class="text-light text-justify">NieR:Automata™ Game of the YoRHa Edition incluye el juego y un montón de contenidos descargables adicionales para disfrutar de este premiado juego de rol y acción posapocalíptico en todo su esplendor:</p>
+                <p>[Leer Más]</p></summary>               
+                <img src="img/special/Nier-GOTY1.jpg"><br>
+                    <br><br>
+                <ul class="bb">
+                    <li class="text-light text-justify">DLC 3C3C1D119440927*<br></li>
+                    <li class="text-light text-justify">AccesoriosValve<br></li>
+                    <li class="text-light text-justify">Pod caja<br></li>
+                    <li class="text-light text-justify">Pod retro gris</li>
+                    <li class="text-light text-justify">Pod retro rojo<br></li>
+                    <li class="text-light text-justify">Grimoire Weiss<br></li>
+                    <li class="text-light text-justify">Máscara máquina<br></li></span>
+                    <li class="text-light text-justify">Un exclusivo lote de fondos de pantalla en los siguientes tamaños: 1024 x 768, 1280 x 1024, 1920 x 1080, 2560 x 1600<br></li>
+                </ul>
+                <br>
+                <p class="text-light text-justify">*Para disfrutar de estos contenidos tendrás que haber alcanzado un determinado punto de la historia principal del juego. Hay ciertas escenas de la historia principal en las que no es posible acceder a estos contenidos.</p>
+                <p class="text-light text-justify"></p>            
+            </details>
+            <h3 class="text-light">DLC DESTACADOS</h3>
+            <hr class="linea" size="10"/>            
+            <p class="text-light text-justify"><img src="img/special/NierDLC.png"><br><br>El DLC 3C3C1D119440927 de NieR: Automata ya está disponible e incluye tres nuevos Coliseos para ponerte a prueba, además de misiones secundarias adicionales. Conseguirás diversas recompensas por completar estas misiones, incluyendo nuevos atuendos de NieR: Replicant, nuevas piezas de equipo, máscaras y otros accesorios, tintes para cambiar el color del pelo de tu personaje, pistas de música especiales para añadir al tocadiscos ¡y mucho más!</p>
+            <h3 class="text-light">REVIEWS & ACCOLADES</h3>
+            <hr class="linea" size="10"/>
+            <blockquote class="blockquote">
+                <p class="mb-0 font-italic text-light">“Don’t miss this”</p>
+                <footer class="blockquote-footer">9/10 <cite title="Source Title">VideoGamer</cite></footer>
+            </blockquote>
+            <blockquote class="blockquote">
+                <p class="mb-0 font-italic text-light">“One of the best games I’ve ever played”</p>
+                <footer class="blockquote-footer">10/10<cite title="Source Title">RPGSite</cite></footer>
+            </blockquote>
+            <blockquote class="blockquote">
+                <p class="mb-0 font-italic text-light">“Pure genius”</p>
+                <footer class="blockquote-footer">4/5 <cite title="Source Title">Trusted Reviews</cite></footer>
+            </blockquote>
+            <h3 class="text-light">ACERCA DE ESTE JUEGO</h3>
+            <hr class="linea" size="10"/>
+            <img src="img/gif/FIGHT.gif">
+            <br><br>
+            <details>
+                <summary class="text-light"><p class="text-light text-justify">NieR: Automata narra la historia de los androides 2B, 9S y A2, que luchan para recuperar el mundo distópico dirigido por las máquinas que han invadido unas poderosas formas de vida mecánicas.<br><br</p>
+                <p>[Leer Más]</p></summary>
+                <br>
+                <ul class="bb">
+                    <li class="text-light text-justify">
+                        <strong>Combates cargados de acción:</strong>
+                        <p> Alterna entre ataques a corta y larga distancia al enfrentarte a hordas de enemigos y desafiantes jefes en múltiples mapas de mundo abierto. Los controles de combate son fáciles de dominar para los neófitos y a la vez ofrecen una profundidad formidable para los jugadores más avanzados. Podrás ejecutar ofensivas a gran velocidad combinando ataques ligeros y pesados, y probar todo tu arsenal de armas mientras esquivas enemigos ágilmente.</p>
+                        <br>
+                    </li>
+                    <li class="text-light text-justify">
+                        <strong>Un hermoso y desolado mundo abierto:</strong>
+                        <p> El juego conecta los sobrecogedores paisajes y localizaciones fluidamente sin necesidad de carga. Los entornos se ejecutan a 60 fps y contienen un gran número de tramas secundarias además de la historia principal.</p>
+                        <br>
+                    </li>
+                    <li class="text-light text-justify">
+                        <strong>Una historia y unos personajes muy cuidados:</strong>
+                        <p> NieR: Automata narra la historia de los androides 2B, 9S y A2, que luchan enardecidamente para recuperar el mundo distópico dirigido por las máquinas que han invadido unas poderosas formas de vida mecánicas.</p>
+                        <br>
+                    </li>
+                    <li class="text-light text-justify">
+                        <strong>Elementos de los juegos de rol:</strong>
+                        <p> Consigue distintos tipos de armas, sube de nivel al luchar, aprende nuevas habilidades de combate y personaliza tu equipo en función de tu estilo.</p>
+                        <br>
+                    </li>
+                    <li class="text-light text-justify">
+                        <strong>Aprovecha las vainas de apoyo táctico dentro y fuera del combate:</strong>
+                        <p> Las vainas pueden atacar al enemigo de forma manual y automática. También pueden proporcionar ayuda fuera del combate, por ejemplo, para desplazarse por el aire. Es posible mejorar las vainas a lo largo del juego con nuevos ataques y modificaciones.</p>
+                        <br>
+                    </li>
+                    <li class="text-light text-justify">
+                        <strong>MODO AUTO para principiantes:</strong>
+                        <p> Los jugadores noveles pueden seleccionar el MODO AUTO para atacar y esquivar al enemigo fácilmente.</p>
+                        <br>
+                    </li>
+                </ul>
+            </details>
+            <div class="cola">
+                <div class="sisreq pagicola" style="max-height: none;">
+                <h3 class="text-light">REQUISITOS DEL SISTEMA</h3>
+                <hr class="linea" size="10"/>
+                    <div class="contesis">
+                    <div class="areasis">
+                        <div class="sisizq">
+                            <ul class="bb">
+                            <strong class="text-light">Mínimo:</strong>
+                            <br>
+                            <ul class="bb text-light">
+                                <li>
+                                <strong>SO:</strong> Windows 8.1
+                                <br>
+                                </li>
+                                <li>
+                                <strong>Procesador:</strong> Intel Core 2 Duo E8400 | AMD Phenom II X2 550
+                                <br>
+                                </li>
+                                <li><strong>Memoria:</strong> 2 GB de RAM
+                                <br>
+                                </li>
+                                <li><strong>Gráficos:</strong> Nvidia GeForce GTS 450 | AMD Radeon HD 5770
+                                <br>
+                                </li>
+                                <li><strong>DirectX:</strong> Versión 11
+                                <br>
+                                </li>
+                                <li><strong>Almacenamiento:</strong>
+                                14 GB de espacio disponible
+                                </li>
+                            </ul>							
+                        </ul>
+                        </div>
+                        <div class="sisder">
+                        <ul>
+                            <strong class="text-light">Recomendado:</strong>
+                            <br>
+                            <ul class="bb text-light">
+                            <li><strong>SO:</strong>
+                                Windows 10
+                                <br>
+                            </li>
+                            <li><strong>Procesador:</strong>
+                                Intel Core i5-650 | AMD Phenom X4 940
+                                <br>
+                            </li>
+                            <li><strong>Memoria:</strong>
+                                4 GB de RAM
+                                <br>
+                            </li>
+                            <li><strong>Gráficos:</strong>
+                                Nvidia GeForce GTX 460 | AMD Radeon HD 6870
+                                <br>
+                            </li>
+                            <li><strong>DirectX:</strong>
+                                Versión 11
+                                <br>
+                            </li>
+                            <li><strong>Almacenamiento:</strong>
+                                14 GB de espacio disponible
+                            </li>
+                            </ul>	
+                        </ul>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="alert alert-dark font-weight-bold" role="alert" >
+                Pueda que te interese:
+                </div>
+                <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1" style="color: green;">A los jugadores como tú les gusta este juego.</h5>
+                    </div>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1" style="color: green;">Reseñas de usuarios: Extremadamente positivas</h5>
+                    </div>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1" style="color: green;">Popular actualmente</h5>
+                    </div>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1" style="color: green;">Creado por desarrolladores y editores a los que sigues: <img src="img/icon/square.jpg" class="Icono"></h5>
+                    </div>
+                </a>
+            </div>
+            <div class="cuadro">
+                <div class="casa">
+                    <div class="icon">
+                    <a href="https://store.steampowered.com/search/?category2=2&amp;snr=1_5_9__423"><img class="user" src="img/icon/user.png"></a>
+                    </div>
+                    <a class="name" href="https://store.steampowered.com/search/?category2=2&amp;snr=1_5_9__423">Un jugador</a>
+                </div>
+                <div class="casa">
+                    <div class="icon">
+                    <a href="https://store.steampowered.com/search/?category2=22&amp;snr=1_5_9__423"><img class="user" src="img/icon/ins.png"></a>
+                    </div>
+                    <a class="name" href="https://store.steampowered.com/search/?category2=22&amp;snr=1_5_9__423">Logros de este juego</a>
+                </div>
+                <div class="casa">
+                    <div class="icon">
+                    <a href="https://store.steampowered.com/search/?category2=18&amp;snr=1_5_9__423"><img class="user" src="img/icon/parcial.png"></a>
+                    </div>
+                    <a class="name" href="https://store.steampowered.com/search/?category2=18&amp;snr=1_5_9__423">Compatibilidad parcial con mando</a>
+                </div>
+                <div class="casa">
+                    <div class="icon">
+                    <a href="https://store.steampowered.com/search/?category2=29&amp;snr=1_5_9__423"><img class="user" src="img/icon/cards.png"></a>
+                    </div>
+                    <a class="name" href="https://store.steampowered.com/search/?category2=29&amp;snr=1_5_9__423">Cromos Coleccionables</a>
+                </div>
+                    <div class="casa">
+                        <div class="icon">
+                        <a href="https://store.steampowered.com/search/?category2=23&amp;snr=1_5_9__423"><img class="user" src="img/icon/cloud.png"></a>
+                        </div>
+                        <a class="name" href="https://store.steampowered.com/search/?category2=23&amp;snr=1_5_9__423">Stadia Cloud</a>
+                    </div>
+                    <div class="casa">
+                        <div class="icon">
+                        <a href="https://store.steampowered.com/search/?category2=41&amp;snr=1_5_9__42"><img class="user" src="img/icon/remoto.png"></a>
+                        </div>
+                        <a class="name" href="https://store.steampowered.com/search/?category2=41&amp;snr=1_5_9__42">Remote Play en movil</a>
+                    </div>                
+                </div>
+            <div class="cuadro">
+                <div class="idiomas">Idiomas: </div>
+                <table class="opcion_lengua" cellpadding="0" cellspacing="0"> 
+                <tbody>
+                    <tr>
+                    <th style="width: 94px;"></th>
+                    <th class="colcheck text-light">Interfaz</th>
+                    <th class="colcheck text-light">Voces</th>
+                    <th class="colcheck text-light">Subtitulos</th>                    
+                    </tr>
+                    <tr>
+                    <td style="width: 94px; text-align: left;" class="psi text-light">Español</td>
+                        <td class="colcheck"><span>✔</span></td>
+                        <td class="colcheck"><span> </span></td>
+                        <td class="colcheck"><span>✔</span></td>
+                    </tr>
+                    <tr style="" class="">
+                    <td style="width: 94px; text-align: left" class="psi text-light">Inglés</td>
+                        <td class="colcheck"><span>✔</span></td>
+                        <td class="colcheck"><span>✔</span></td>
+                        <td class="colcheck"><span>✔</span></td>
+                    </tr>
+                    <tr style="" class="">
+                    <td style="width: 94px; text-align: left" class="psi text-light">japonés</td>
+                        <td class="colcheck"><span>✔</span></td>
+                        <td class="colcheck"><span>✔</span></td>
+                        <td class="colcheck"><span>✔</span></td>
+                    </tr>
+                    <tr style="" class="">
+                    <td style="width: 94px; text-align: left" class="psi text-light">Aleman</td>
+                        <td class="colcheck"><span>✔</span></td>
+                        <td class="colcheck"><span> </span></td>
+                        <td class="colcheck"><span>✔</span></td>
+                    </tr>
+                    <tr style="" class="">
+                    <td style="width: 94px; text-align: left" class="psi text-light">Francés</td>
+                        <td class="colcheck"><span>✔</span></td>
+                        <td class="colcheck"><span> </span></td>
+                        <td class="colcheck"><span>✔</span></td>
+                    </tr>
+                </tbody>
+                </table>              
+            </div>
+            <div class="cuadro">
+                <div class="rate">
+                <div class="detail">
+                    <div class="icono_esrb">
+                    <img src="img/icon/m.png">
+                    </div>
+                    <div>
+                    <p class="txtdesc">
+                        "Sangre"
+                        <br>
+                        "Lenguaje SOES"
+                        <br>
+                        "Desnudez parcial"
+                        <br>
+                        "Violencia"
+                    </p>
+                    </div>
+                </div>
+                </div>
+                <div class="esrb text-light">Clasificacion de ESRB</div>
+            </div>
+            <div class="cuadro">
+                <div>
+                <div>
+                    <div class="detajueg">
+                    <b>Titulo:</b>
+                    NieR:Automata™
+                    <br>
+                    <b>Genero: </b>
+                    <a href="https://store.steampowered.com/genre/Action/?snr=1_5_9__408">Acción</a>
+                    <a href="https://store.steampowered.com/genre/RPG/?snr=1_5_9__408">, Rol</a>
+                    <br>
+                    <div class="detajueg">
+                        <b>Desarrollador:</b>
+                        <a href="https://store.steampowered.com/developer/squareenix?snr=1_5_9__408">Square Enix</a>
+                        <a href="https://store.steampowered.com/search/?developer=PlatinumGames%20Inc.&amp;snr=1_5_9__408">, PlatinumGames</a>
+                    </div>
+                    <div class="detajueg">
+                        <b>Editor:</b>
+                        <a href="https://store.steampowered.com/publisher/squareenix?snr=1_5_9__408">Square Enix</a>
+                    </div>
+                    <b>Fecha de Lanzamiento:</b>
+                        17 MAR 2017
+                        <br>
+                </div>
+                </div>
+            </div>
+            </div>            
+        </div>
+        </div>  
+    </section>
+    <footer class="site-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-6">
+              <h6>About</h6>
+              <p class="text-justify">Vortex Club<i>Es una tienda: </i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, culpa? Ut harum impedit, dignissimos, ullam tenetur, labore nostrum natus pariatur autem soluta porro consectetur aperiam obcaecati similique officiis? Temporibus, saepe?</p>
+            </div>  
+            <div class="col-xs-6 col-md-3">
+              <h6>Paginas y Programas Utilizadas usados</h6>
+              <ul class="footer-links">
+                <li><a href="https://getbootstrap.com/docs/4.0/getting-started/introduction/">Bosstrap</a></li>
+                <li><a href="#">Java Script</a></li>
+                <li><a href="#">HTML</a></li>
+                <li><a href="https://stackoverflow.com">Stack Overflow</a></li>
+              </ul>
+            </div>
+  
+            <div class="col-xs-6 col-md-3">
+              <h6>Redes sociales</h6>
+              <ul class="footer-links">
+                <li><a href="https://www.facebook.com/?ref=tn_tnmn">Facebook</a></li>
+                <li><a href="https://twitter.com">Twitter</a></li>
+                <li><a href="https://www.youtube.com">Youtube</a></li>
+                <li><a href="https://www.instagram.com">Instagram</a></li>
+              </ul>
+            </div>
+          </div>
+          <hr>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-sm-6 col-xs-12">
+              <p class="copyright-text">Copyright &copy; 2020 Derechos reservados  
+           <a href="#">Ariel Zarate</a>.
+              </p>
+            </div>
+          </div>
+        </div>
+  </footer>
+
+    <script src="js/codigo.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
